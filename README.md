@@ -6,11 +6,15 @@ BlunderCover is an in-development native iOS chess study and post-game coaching 
 
 ## Watch the prototype
 
-[![Watch the BlunderCover demo](media/demo-preview.jpg)](https://github.com/wytshadow/blundercover/blob/main/media/blundercover-demo.mp4)
+Press **Play** below to watch directly in your browser—no download or YouTube account needed.
 
-[Watch or download the demo video](https://raw.githubusercontent.com/wytshadow/blundercover/main/media/blundercover-demo.mp4) — a short recording of the actual current iOS simulator app, using synthetic test games. It shows Home, legal board entry, Library and More navigation, genuine on-device Stockfish review results, and practice from a reviewed mistake. Idle startup and relaunch screens were trimmed, and navigation is presented before review/practice. No mock UI or private account data is shown.
+https://github.com/user-attachments/assets/68eb89af-9a48-4412-9dd0-435c52275547
 
-The two native UI flows used to record this demo passed on October 12, 2026. This video demonstrates a working prototype, not full feature acceptance or approved Chess.com Game Review access.
+This ~43-second recording shows the actual current iOS simulator app: Home, legal board entry, Library and More navigation, genuine on-device Stockfish review results, and practice from a reviewed mistake. It uses synthetic demo players **chessuser1**, **chessuser2** and **chessuser3**, not real account data. Idle startup/relaunch screens were trimmed, and navigation is presented before review/practice. No mock UI or private account data is shown.
+
+[Open the browser-playable demo separately](https://github.com/wytshadow/blundercover/issues/1) if your viewer does not display GitHub's embedded player.
+
+The two native UI flows used to record this refreshed demo passed on October 12, 2026. This video demonstrates a working prototype, not full feature acceptance or approved Chess.com Game Review access.
 
 ## Working prototype
 
