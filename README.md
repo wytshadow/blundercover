@@ -1,0 +1,28 @@
+# BlunderCover — iOS prototype
+
+BlunderCover is an in-development native iOS chess study and post-game coaching app. This repository is a public project showcase, not the application's source-code distribution or a downloadable release.
+
+![BlunderCover logo](assets/logo.png)
+
+## Working prototype
+
+- Import and replay completed games, preserving PGN comments and variations.
+- Link player identities and import public Chess.com and Lichess histories.
+- Display Chess.com's published accuracy scores and existing Lichess PGN evaluation annotations separately from on-device Stockfish reviews.
+- Practice opening repertoires, authored puzzles and positions drawn from post-game reviews.
+- Connect to Lichess using Authorization Code + PKCE with read-only study and puzzle scopes.
+- Export and restore encrypted, portable backups without including account credentials.
+
+The interface includes Home, Practice, OTB Entry, Library and More. The prototype is implemented in SwiftUI and has been exercised through native simulator UI tests, real provider-history imports, on-device Stockfish review and encrypted backup roundtrips. Physical-device acceptance and distribution validation remain pending.
+
+## Requested Chess.com access
+
+We are applying for OAuth account linking and supported read-only access to a user's completed games and existing analysis. Full authenticated Game Review retrieval is not implemented or claimed; approval and documentation of an appropriate analysis-access API are needed. Published public accuracy scores are not a substitute for full move-by-move Game Review.
+
+BlunderCover does not submit moves, automate play, provide live-game assistance or connect a physical chessboard. Connected Board access is not requested.
+
+## Data boundaries
+
+This showcase contains no user games, private notes, account credentials, simulator data or test logs. The prototype stores its study library locally and its Lichess access credential in the device Keychain. Provider requests are sent to the selected provider; portable backup files are saved to the user's chosen destination. This summary is not a published legal privacy policy or terms of service.
+
+BlunderCover is an independent project, not endorsed by Chess.com or Lichess. No public app release is offered here.
