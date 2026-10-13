@@ -2,7 +2,15 @@
 
 BlunderCover is an in-development native iOS chess study and post-game coaching app. This repository is a public project showcase, not the application's source-code distribution or a downloadable release.
 
-![BlunderCover logo](assets/logo.png)
+![BlunderCover logo](assets/logo-200.png)
+
+## Watch the prototype
+
+[![Watch the BlunderCover demo](media/demo-preview.jpg)](https://github.com/wytshadow/blundercover/blob/main/media/blundercover-demo.mp4)
+
+[Watch or download the demo video](https://raw.githubusercontent.com/wytshadow/blundercover/main/media/blundercover-demo.mp4) — a short recording of the actual current iOS simulator app, using synthetic test games. It shows Home, legal board entry, Library and More navigation, genuine on-device Stockfish review results, and practice from a reviewed mistake. Idle startup and relaunch screens were trimmed, and navigation is presented before review/practice. No mock UI or private account data is shown.
+
+The two native UI flows used to record this demo passed on October 12, 2026. This video demonstrates a working prototype, not full feature acceptance or approved Chess.com Game Review access.
 
 ## Working prototype
 
